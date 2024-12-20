@@ -1,4 +1,3 @@
-
 const specialties = [
   { name: 'Internal Medicine', doctors: '30+ Doctors', icon: '🩺' },
   { name: 'Dental Care', doctors: '30+ Doctors', icon: '🦷' },
@@ -12,19 +11,18 @@ const specialties = [
 
 const Specialties = () => {
   return (
-    <div>
+    <div className="">
       <div className="flex items-center justify-center mt-20">
-        <div className="w-24 lg:w-24 rounded-full bg-gray-100 flex items-center justify-center">
-          <img
-            className="w-20 h-20"
-            src="https://img.freepik.com/free-vector/health-care-logo-icon_125964-471.jpg?w=360"
-            alt="Health Logo"
-          />
-        </div>
-        <h1 className="text-blue-300 text-sm lg:text-2xl mt-2 mb-4 ml-4">Our Services</h1>
+      <div className=" lg:w-24 rounded-full">
+            <img className="h-10 w-10 ml-12"
+              src="src/assets/images/group 2.png"
+              alt="Health Logo"
+            />
+          </div>
+        <h1 className="text-blue-300 text-sm lg:text-2xl mt-4 mb-4">Our Services</h1>
       </div>
       <div className="p-8">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Medical Specialties</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Our Medical Specialties <br /> Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pl-16 pr-16">
           {specialties.map((specialty) => (
             <div key={specialty.name} className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -43,6 +41,7 @@ const Specialties = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

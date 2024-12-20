@@ -1,14 +1,15 @@
+
+
     const Doctors = () => {
     return (
-        <div>
+          <div>
             <div className="flex items-center justify-center mt-4">
-        <div className="w-24 lg:w-24 rounded-full">
-          <img
-            className="w-20 h-20"
-            src="https://img.freepik.com/free-vector/health-care-logo-icon_125964-471.jpg?w=360"
-            alt="Health Logo"
-          />
-        </div>
+            <div className=" lg:w-24 rounded-full">
+            <img className="h-10 w-10 ml-12"
+              src="src/assets/images/group 2.png"
+              alt="Health Logo"
+            />
+          </div>
         <h1 className="text-blue-300 text-sm lg:text-2xl mt-2 mb-4 ml-4">Our Doctors</h1>
       </div>
         <div className="mt-4 text-center font-sans text-2xl">
@@ -20,7 +21,7 @@
             </p>
             </div>
         </div>
-        <div className=" flex flex-wrap gap-2 justify-center ">
+        <div className=" flex gap-2 justify-center ">
             <div className="ml-5 card bg-base-100 shadow-xl">
             <figure className="px-10 pt-10 bg-base-200 my-10 mx-10 rounded-lg ">
                 <img
@@ -92,10 +93,16 @@
             </div>
         </div>
         </div>
+
+       
     );
     };
 
     export default Doctors;
+
+
+
+    
 
 
     

@@ -29,6 +29,9 @@
 //         <li><a>About Us</a></li>
 //         <li><a>Services</a></li>
 //         <li><a>Contact</a></li>
+
+import { Link } from "react-router-dom";
+
         
 //       </ul>
 //     </div>
@@ -145,7 +148,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Find Doctors 1</a>
+              Find Doctors
             </li>
             <li>
               <a>Hospitals</a>
@@ -162,13 +165,13 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center">
-          <div className="w-16 lg:w-24 rounded-full">
-            <img
-              src="https://img.freepik.com/free-vector/health-care-logo-icon_125964-471.jpg?w=360"
+          <div className=" lg:w-24 rounded-full">
+            <img className="h-10 w-10 ml-12"
+              src="src/assets/images/group 2.png"
               alt="Health Logo"
             />
           </div>
-          <h1 className="text-blue-600 font-bold text-xl lg:text-2xl mt-2 ml-4">Health</h1>
+          <h1 className="text-blue-600 font-bold text-xl lg:text-2xl mt-2 mr-4">Health</h1>
         </div>
       </div>
       <div tabIndex={0} className="navbar-center hidden lg:flex">

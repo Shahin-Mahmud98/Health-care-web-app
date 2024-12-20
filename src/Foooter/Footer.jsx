@@ -15,14 +15,15 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
               <div className="mb-5 pb-4">
               <div className="flex items-center">
-  <div className="w-24 lg:w-24 rounded-full flex-shrink-0">
+  <div className="lg:w-24 rounded-full">
     <img
-      className="w-20 h-20"
-      src="https://img.freepik.com/free-vector/health-care-logo-icon_125964-471.jpg?w=360"
+      className="h-6 w-6"
+      src="src/assets/images/group 2.png"
       alt="Health Logo"
     />
   </div>
-  <h1 className="text-xl pl-4">Health</h1>
+  <h1 className=" font-bold text-xl lg:text-xl ">Health</h1>
+  {/* <span className="mt-0 pt-0 ml-1">Health</span> */}
 </div>
                 
                 <p>
@@ -121,7 +122,7 @@ const Footer = () => {
         </div>
         
       </footer>
-      <footer className="footer text-center bg-gray-800 border-base-300 border-t text-white px-10 py-4">
+      <footer className="footer justify-center bg-gray-800 border-base-300 border-t text-white px-10 py-4">
    <p >Copyright @ 2024 Health.com. All rights reserved.</p>
 </footer>
 

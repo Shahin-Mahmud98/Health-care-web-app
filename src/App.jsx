@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import BestService from "./components/Services/BestService"
@@ -19,6 +20,9 @@ function App() {
       <ServicesSection/>
       <BestService/>
       <Doctors/>
+      <div>
+      <  ServicesSection />
+      </div>
       <Contact/>
       <Footer/>
     </div>

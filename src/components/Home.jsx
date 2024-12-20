@@ -5,21 +5,21 @@ const Home = () => {
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex flex-col lg:flex-row-reverse items-center">
         <img
-          className="rounded-lg bg-none max-w-full lg:max-w-md"
-          src="src/assets/images/home-img.png"
+          className="rounded-lg bg-none max-w-full lg:max-w-md mt-4 mr-24"
+          src="src/assets/images/img2.png"
           alt="Home"
         />
         
-        <div className="lg:mr-10 mt-6 lg:mt-0">
+        <div className="lg:mr-10 mt-6 lg:mt-0 ml-24">
           <div className="flex items-center mb-4">
-            <div className="w-24 rounded-full">
+            <div className=" rounded-full">
               <img
-                className="bg-gray-100 w-24 h-24"
-                src="https://img.freepik.com/free-vector/health-care-logo-icon_125964-471.jpg?w=360"
+                className="bg-gray-100 w-10 h-10"
+                src="src/assets/images/group 2.png"
                 alt="Health Logo"
               />
             </div>
-            <h1 className="text-blue-300 text-sm lg:text-2xl mt-2 mb-4 ml-4">24/7 EMERGENCY SERVICES</h1>
+            <h1 className="text-blue-300 text-sm lg:text-2xl mt-4 mb-4 ml-4">24/7 EMERGENCY SERVICES</h1>
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold">
             Caring for <span className="text-blue-600 decoration-blue-300">Health</span>
@@ -40,11 +40,11 @@ const Home = () => {
         </div>
       </div>
       
-      <div className="w-full px-4 lg:px-0 lg:w-2/3 mt-10 lg:mt-0 flex flex-col lg:flex-row justify-center items-center p-6 lg:p-10 bg-white rounded-lg shadow-lg ">
+      <div className="w-full px-4 lg:px-0 lg:w-2/3 lg:mt-128 flex flex-col lg:flex-row justify-center items-center p-6 lg:p-10 bg-white rounded-lg shadow-lg ">
         <input
           type="text"
           placeholder="Search"
-          className="input input-bordered w-full max-w-xs mb-4 lg:mb-0 lg:mr-4"
+          className="input input-bordered w-full max-w-xs mb-4 ml-4 lg:mb-0 lg:mr-4"
         />
         <input
           type="text"

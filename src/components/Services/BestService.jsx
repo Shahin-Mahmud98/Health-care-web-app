@@ -40,18 +40,19 @@ const BestService = () => {
       
       <div className="hero-content flex flex-col lg:flex-row-reverse md:flex-row items-start md:items-center w-full max-w-6xl gap-8">
        
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center mt-24">
           
-          <div className="relative bg-gradient-to-b from-blue-900 to-blue-300 p-8 w-full h-full rounded-lg flex justify-center items-center">
+          <div className="relative bg-gradient-to-b from-blue-900 to-blue-300 p-8 w-lvw h-96 rounded-lg flex justify-center items-center mt-28">
            
             <img
-              src="src/assets/images/female1.png"
+              src="src/assets/images/img3.png"
               alt="Doctor"
-              className="h-96 rounded-lg object-cover lg:mt-0 -mt-10  "
+              className="h-screen rounded-lg object-cover -mt-52"
             />
+            <img className="h-36 w-36 mb-72" src="src/assets/images/Group 27.png" alt="" />
           </div>
         </div>
-        <div className="w-full md:w-1/2 p-8 mr-48 rounded-lg ">
+        <div className="w-full p-8 mr-24 rounded-lg mt-32 ">
           
           <h1 className="text-3xl font-bold text-center mb-8 ">
             
