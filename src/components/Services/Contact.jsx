@@ -1,8 +1,7 @@
-// import { useState } from "react"
-
 import { useState } from "react";
 import Datepicker from "react-tailwindcss-datepicker";
-import { Select, Option } from "@material-tailwind/react";
+import { PhoneInput } from 'react-international-phone';
+import 'react-international-phone/style.css';
 
 
 const Contact = () => {
@@ -12,9 +11,10 @@ const Contact = () => {
       endDate: null
   });
 
+
   //Country code picker area
+  const [phone, setPhone] = useState('');
   
-  // const [selected, setSelected] = useState("");
   return (
     <div className="">
         <div className="flex items-center justify-center mt-4">
@@ -68,45 +68,27 @@ const Contact = () => {
         </div>
         <div className="form-control">
         <div className="mt-5">
-  {/* Phone Number Field */}
+ 
   <label>
-    {/* <input type="text" value={phoneNumber} */}
-    {/* onChange={handleChange} /> */}
+   
   </label>
 
   {/* Date Field */}
   
 </div>
 
-{/* Country code picker area */}
 
-<div className="mb-4 w-72">
-      <Select label="">
-        <Option>
-          US
-          <span className="text-gray-500"> +9388448484</span>
-        </Option>
-        <Option>
-          Material Tailwind React
-          <span className="text-gray-500"> +1234567890</span>
-        </Option>
-        <Option>
-          Material Tailwind Vue
-          <span className="text-gray-500"> +2345678901</span>
-        </Option>
-        <Option>
-          Material Tailwind Angular
-          <span className="text-gray-500"> +3456789012</span>
-        </Option>
-        <Option>
-          Material Tailwind Svelte
-          <span className="text-gray-500"> +4567890123</span>
-        </Option>
-      </Select>
+    {/* 2nd Country area start */}
+    <div className="w-full">
+    <div className=" mb-4 ">
+      <PhoneInput className=""
+        defaultCountry="Us"
+        value={phone}
+        onChange={(phone) => setPhone(phone)}
+      />
     </div>
-
-    {/* country code picker area end */}
-    
+    </div>
+      {/* 2nd Country area start */}
 
           {/* select date area */}
           <div className="input input-bordered">
