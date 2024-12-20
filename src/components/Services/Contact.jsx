@@ -18,17 +18,17 @@ const Contact = () => {
   return (
     <div className="">
         <div className="flex items-center justify-center mt-4">
-        <div className="w-24 lg:w-24 rounded-full">
-          <img
-            className="w-12 h-12"
-            src="src/assets/images/Group 2.png"
-            alt="Health Logo"
-          />
-        </div>
-        <h1 className="text-blue-300 text-sm lg:text-2xl mt-4 mb-4 ml-0 mr-24">Our Doctors</h1>
+        <div className="w-24 text-center rounded-full">
+      <img
+        className="w-8 h-8 mr-4"
+        src="src/assets/images/Group 2.png"
+        alt="Health Logo"
+      />
+    </div>
+        <h1 className="text-blue-500 text-lg lg:text-2xl mt-4 mb-4 -ml-16">Contact Us</h1>
       </div>
-        <div className="mt-4 text-center font-sans text-2xl">
-            <h1>Our Special Doctors</h1>
+        <div className="text-center font-sans text-xl lg:text-2xl mt-4 mb-8">
+        <h1 className="font-bold">Get A Quote Today</h1>
             <div className="font-sans text-wrap text-sm mb-5">
             <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
@@ -79,9 +79,9 @@ const Contact = () => {
 
 
     {/* 2nd Country area start */}
-    <div className="w-full">
-    <div className=" mb-4 ">
-      <PhoneInput className=""
+    <div className="mt-4">
+    <div className=" mb-4 -mt-5 input input-bordered">
+      <PhoneInput 
         defaultCountry="Us"
         value={phone}
         onChange={(phone) => setPhone(phone)}
@@ -103,7 +103,7 @@ const Contact = () => {
   placeholder="Bio"
   className="textarea textarea-bordered textarea-lg w-full max-w-xs"></textarea>
         </div>
-        <div className="form-control mt-6">
+        <div className="form-control mt-6 items-center">
         <a className="btn rounded-full bg-gradient-to-b from-blue-900 to-blue-300 text-white font-bold w-48 items-center">
           APPOINTMENT NOW
         </a>

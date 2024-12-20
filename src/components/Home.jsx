@@ -14,12 +14,12 @@ const Home = () => {
           <div className="flex items-center mb-4">
             <div className=" rounded-full">
               <img
-                className="bg-gray-100 w-10 h-10"
+                className="bg-gray-100 h-6 w-6"
                 src="src/assets/images/group 2.png"
                 alt="Health Logo"
               />
             </div>
-            <h1 className="text-blue-300 text-sm lg:text-2xl mt-4 mb-4 ml-4">24/7 EMERGENCY SERVICES</h1>
+            <h1 className="text-blue-300 text-sm lg:text-lg mt-4 mb-4 ml-4">24/7 EMERGENCY SERVICES</h1>
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold">
             Caring for <span className="text-blue-600 decoration-blue-300">Health</span>

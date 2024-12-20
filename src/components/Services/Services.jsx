@@ -14,12 +14,12 @@ const Specialties = () => {
     <div className="">
       <div className="flex items-center justify-center mt-20">
       <div className=" lg:w-24 rounded-full">
-            <img className="h-10 w-10 ml-12"
+            <img className="h-8 w-8 ml-12 mr-2"
               src="src/assets/images/group 2.png"
               alt="Health Logo"
             />
           </div>
-        <h1 className="text-blue-300 text-sm lg:text-2xl mt-4 mb-4">Our Services</h1>
+        <h1 className="text-blue-500 -ml-4 text-sm lg:text-2xl mt-4 mb-4 ">Our Services</h1>
       </div>
       <div className="p-8">
         <h2 className="text-3xl font-bold text-center mb-8">Our Medical Specialties <br /> Services</h2>

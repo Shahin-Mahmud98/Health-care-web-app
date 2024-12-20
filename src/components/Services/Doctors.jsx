@@ -2,15 +2,15 @@
 
     const Doctors = () => {
     return (
-          <div>
+          <div className="px-4 md:px-8 lg:px-16">
             <div className="flex items-center justify-center mt-4">
             <div className=" lg:w-24 rounded-full">
-            <img className="h-10 w-10 ml-12"
+            <img className="h-8 w-8 ml-12 mt-4"
               src="src/assets/images/group 2.png"
               alt="Health Logo"
             />
           </div>
-        <h1 className="text-blue-300 text-sm lg:text-2xl mt-2 mb-4 ml-4">Our Doctors</h1>
+        <h1 className="text-blue-500 text-sm lg:text-2xl mt-4  -ml-4">Our Doctors</h1>
       </div>
         <div className="mt-4 text-center font-sans text-2xl">
             <h1>Our Special Doctors</h1>
@@ -100,9 +100,3 @@
 
     export default Doctors;
 
-
-
-    
-
-
-    

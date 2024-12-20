@@ -1,39 +1,3 @@
-// const BestService = () => {
-//   return (
-//     <div className="hero bg-base-200 flex items-center gap-5 justify-center min-h-screen">
-//   <div className="hero-content flex flex-col lg:flex-row-reverse md:flex-row items-start md:items-center space-y-8 md:space-y-0 md:space-x-8 w-1/2  ml-60  ">
-//     <div className="flex flex-col items-center bg-gradient-to-b from-blue-900 to-blue-300 p-8 w-full h-80 rounded-lg">
-
-//     <img
-//       src="src/assets/images/female1.png"
-//       className=" h-96 rounded-lg object-cover  -mt-40 " />
-//       </div>
-//         <div className="">
-//         <div className="p-8"> <h1 className="text-3xl font-bold text-center mb-8"> We Remain Continuously Available For Your Health Services </h1>
-//         <div className="space-y-6"> <div className="flex items-start space-x-4">
-//             <div className="text-2xl font-bold text-blue-600">01</div>
-//             <div> <h2 className="text-xl font-semibold">Compassionate & Expert Care</h2>
-//              <p> Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing. </p>
-//               </div> </div> <div className="flex items-start space-x-4">
-//                  <div className="text-2xl font-bold text-blue-600 rounded-full">02</div>
-//                  <div> <h2 className="text-xl font-semibold">Patient-Centered Approach</h2>
-//                  <p> Your health and well-being are our top priorities. We take the time to listen to your concerns, answer your questions. </p>
-//                  </div> </div> <div className="flex items-start space-x-4">
-//                     <div className="text-2xl font-bold text-blue-600">03</div>
-//                     <div> <h2 className="text-xl font-semibold">Personalized Treatment Plans</h2>
-//                      <p> We understand that every patient is unique, and their healthcare needs may vary. That is why we create individualized treatment. </p>
-//                       </div>
-//                      </div>
-//                      </div>
-//                      </div>
-//         </div>
-//     </div>
-// </div>
-//   )
-// }
-
-// export default BestService
-
 const BestService = () => {
   return (
     <div className="hero bg-base-200 flex items-center justify-center min-h-screen p-5">
@@ -114,9 +78,3 @@ const BestService = () => {
 };
 export default BestService;
 
-
-//from daisyui theke 
-//divider lagbe
-//card lagbe 
-//hero lagbe
-//footer lage
