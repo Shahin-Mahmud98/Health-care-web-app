@@ -1,11 +1,13 @@
 import { CiSearch } from "react-icons/ci";
+import { FaSearch } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Home = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex flex-col lg:flex-row-reverse items-center">
         <img
-          className="rounded-lg bg-none max-w-full lg:max-w-md mt-4 mr-24"
+          className="rounded-lg bg-none h-100 w-138 lg:max-w-md mt-4 mr-24"
           src="src/assets/images/img2.png"
           alt="Home"
         />
@@ -40,24 +42,34 @@ const Home = () => {
         </div>
       </div>
       
-      <div className="w-full px-4 lg:px-0 lg:w-2/3 lg:mt-128 flex flex-col lg:flex-row justify-center items-center p-6 lg:p-10 bg-white rounded-lg shadow-lg ">
-        <input
-          type="text"
-          placeholder="Search"
-          className="input input-bordered w-full max-w-xs mb-4 ml-4 lg:mb-0 lg:mr-4"
-        />
-        <input
-          type="text"
-          placeholder="Input 2"
-          className="input input-bordered w-full max-w-xs mb-4 lg:mb-0 lg:mr-4"
-        />
-        <input
-          type="text"
-          placeholder="Input 3"
-          className="input input-bordered w-full max-w-xs mb-4 lg:mb-0 lg:mr-4"
-        />
-        <a className="btn rounded-full bg-gradient-to-b from-blue-900 to-blue-300 text-white font-bold py-2 px-4 flex items-center">
-          <CiSearch className="mr-2" /> SEARCH
+      <div className="w-auto px-4 lg:px-0 lg:w-2/3 lg:mt-128 flex flex-col lg:flex-row justify-center items-center p-6 -mb-8 lg:p-10 bg-white rounded-lg shadow-lg ">
+      <div className="relative w-full max-w-xs mb-4 ml-4 lg:mb-0 lg:mr-4">
+      <input
+        type="text"
+        placeholder="Ex. Doctor, Hospitals"
+        className="input input-bordered w-full pl-10"
+      />
+      <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
+    </div>
+      <div className="relative w-full max-w-xs mb-4 ml-4 lg:mb-0 lg:mr-4">
+      <input
+        type="text"
+        placeholder="Ex, Surgeon, Cardiologist"
+        className="input input-bordered w-full pl-10"
+      />
+      <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
+    </div>
+    <div className="relative w-full max-w-xs mb-4 ml-4 lg:mb-0 lg:mr-4">
+      <input
+        type="text"
+        placeholder="Set Your Location"
+        className="input input-bordered w-full pl-10"
+      />
+      <FaLocationDot className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
+    </div>
+        
+        <a className="btn rounded-full bg-gradient-to-b from-blue-900 to-blue-300 text-white font-bold py-2 px-6 mr-8 flex items-center">
+          <CiSearch className="mr-" /> SEARCH
         </a>
       </div>
     </div>

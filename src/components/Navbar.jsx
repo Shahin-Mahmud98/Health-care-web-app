@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
+
+
 
 const Navbar = () => {
+  
   return (
+    <nav>
     <div className="navbar bg-base-100 shadow-lg">
-      <div className="navbar-start">
+      <div className="navbar-start -mr-12">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -25,10 +30,12 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              Find Doctors
+            
+            <Link to={"/doctors"}>Find Doctors</Link> 
+            
             </li>
             <li>
-              <a>Hospitals</a>
+              Hospitals
             </li>
             <li>
               <a>About Us</a>
@@ -41,8 +48,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center">
-          <div className=" lg:w-24 rounded-full">
+        <div className="flex items-center mb-4">
+          <div className=" lg:w-24 rounded-full ">
             <img className="h-10 w-10 ml-12"
               src="src/assets/images/group 2.png"
               alt="Health Logo"
@@ -54,7 +61,7 @@ const Navbar = () => {
       <div tabIndex={0} className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-serif text-lg lg:text-2xl">
           <li>
-            <a>Find Doctors</a>
+           <Link to={"/doctors"}>Find Doctors</Link> 
           </li>
           <li>
             <a>Hospitals</a>
@@ -119,6 +126,7 @@ const Navbar = () => {
         </a>
       </div>
     </div>
+    </nav>
   );
 };
 

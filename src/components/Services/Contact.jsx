@@ -120,7 +120,7 @@ const Contact = () => {
             <img
               src="src/assets/images/image.png"
               alt="Doctor"
-              className="h-screen rounded-lg object-cover -mt-44"
+              className="h-screen rounded-lg object-cover -mt-52"
             />
           </div>
         </div>

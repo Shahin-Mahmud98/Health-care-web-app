@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { BrowserRouter, Routes } from "react-router-dom"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import BestService from "./components/Services/BestService"
@@ -10,10 +10,11 @@ import Footer from "./Foooter/Footer"
 
 
 
+
 function App() {
   
   return (
-    <div>
+   <div>
       <Navbar></Navbar>
       <Home/>
       <Services/>
@@ -25,7 +26,7 @@ function App() {
       </div>
       <Contact/>
       <Footer/>
-    </div>
+      </div>
   )
 }
 

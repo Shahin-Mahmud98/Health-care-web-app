@@ -16,7 +16,19 @@ const BestService = () => {
             <img className="h-36 w-36 mb-72" src="src/assets/images/Group 27.png" alt="" />
           </div>
         </div>
+
+        {/* coose area */}
+        
         <div className="w-full p-8 mr-24 rounded-lg mt-32 ">
+        <div className="flex items-center justify-center mt-4 mb-8">
+            <div className=" lg:w-24 rounded-full">
+            <img className="h-8 w-8 ml-12 mt-4"
+              src="src/assets/images/group 2.png"
+              alt="Health Logo"
+            />
+          </div>
+        <h1 className="text-blue-500 text-sm lg:text-2xl mt-4 -ml-4">Why choose us</h1>
+      </div>
           
           <h1 className="text-3xl font-bold text-center mb-8 ">
             
